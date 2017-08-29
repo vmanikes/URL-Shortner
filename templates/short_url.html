@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shortened URL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+</head>
+<body>
+
+    <nav class="light-blue lighten-1" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">URL Shortner</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Github</a></li>
+                <li><a href="#">API</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <a href="{{ shortened_urls[new_url] }}">{{ new_url }}</a>
+
+
+</body>
+</html>
