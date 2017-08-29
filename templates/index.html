@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>URL Shortner</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="/static/index.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 </head>
 <body>
@@ -18,9 +19,11 @@
   </nav>
 
   <form action="/shorten_url" method="post" accept-charset="UTF-8">
-      <input type="text" name="url">
+      <p>Enter the URL to shorten:</p>
+      <input class="z-depth-5" type="text" name="url" >
       <input class="btn waves-effect waves-light" type="submit" value="Get Shortened URL">
   </form>
+
 
 
   <!--  Scripts-->
