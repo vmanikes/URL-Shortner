@@ -2,13 +2,15 @@ from flask import Flask,render_template,request
 import uuid
 import validators
 
+
 from collections import defaultdict
 app = Flask(__name__)
 
 shortened_urls = defaultdict()
 
 @app.route('/')
-def hello_world():
+def index():
+    print(render_template('index.html'))
     return render_template('index.html')
 
 @app.route('/shorten_url',methods=['POST'])
