@@ -7,7 +7,7 @@ So I thought that rather than studying how to build it, why not get my hands dir
 
 To generate unique URL's it is using the python's UUID module which gurantees that we don't get the same unique ID again for different URL
 
-I am using the REDIS to store data as a back end 
+I am using the REDIS database to store data as a back end 
 
 
 ### Future SCOPE
