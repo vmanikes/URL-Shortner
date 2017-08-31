@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vmanikes/URL-Shortner.svg?branch=master)](https://travis-ci.org/vmanikes/URL-Shortner)
+
 # URL Shortner
 My highly available and scalable URL Shortner
 
